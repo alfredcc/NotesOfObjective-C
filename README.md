@@ -4,3 +4,4 @@
 ##### 为什么子类化 NSManagedObject 是要使用 `dunamic`：因为 `properties` 是不是实例变量
 ##### `atomic`是线程安全的，默认为`atomic`，所以一般需要加 `natomic` 修饰
 ##### `assign`修饰纯量 CGFloat NSInteger
+##### `delegate` 如果  `responseToSelector` 调用的多的话，可以使用段位结构体来缓存这个结果
