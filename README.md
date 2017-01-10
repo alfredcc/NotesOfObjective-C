@@ -2,7 +2,7 @@
 
 #### prop
 
-- `dynamic`: 告诉不让编译器在编译时自动生产 accessors，比如在子类化 NSManagedObject 时候告诉编译器会在运行时创建。
+- `dynamic`: 不让编译器在编译时自动生产 accessors，比如在子类化 NSManagedObject 时候告诉编译器会在运行时创建。
 
 > 为什么子类化 NSManagedObject 是要使用 `dynamic`：因为 NSManagedObject 的 `properties` 不是实例变量
 
